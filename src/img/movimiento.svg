@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="movimiento.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg855"
+   version="1.1"
+   viewBox="0 0 52.916665 52.916668"
+   height="200"
+   width="200">
+  <defs
+     id="defs849">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1490">
+      <circle
+         r="13.727681"
+         cy="26.360516"
+         cx="30.824118"
+         id="circle1492"
+         style="fill:#787878;fill-opacity:1;stroke:none;stroke-width:6.58429;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers" />
+    </clipPath>
+    <clipPath
+       id="clipPath1490-0"
+       clipPathUnits="userSpaceOnUse">
+      <circle
+         style="fill:#787878;fill-opacity:1;stroke:none;stroke-width:6.58429;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         id="circle1492-1"
+         cx="30.824118"
+         cy="26.360516"
+         r="13.727681" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     inkscape:pagecheckerboard="true"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="961"
+     inkscape:window-width="1280"
+     inkscape:snap-global="true"
+     inkscape:snap-center="true"
+     inkscape:snap-page="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-bbox="true"
+     units="px"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="150.80143"
+     inkscape:cx="90.457902"
+     inkscape:zoom="1.5708073"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata852">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Capa 1">
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.57788;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="path1573"
+       cx="15.384899"
+       cy="14.855735"
+       r="8.427599" />
+    <circle
+       r="8.427599"
+       cy="23.283329"
+       cx="23.812494"
+       id="path1573-8"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:3.57788;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers" />
+    <circle
+       r="8.427599"
+       cy="31.710926"
+       cx="32.240093"
+       id="path1573-8-3"
+       style="fill:#a8a8a8;fill-opacity:1;stroke:none;stroke-width:3.57788;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers" />
+    <circle
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:3.57788;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="path1573-8-3-8"
+       cx="38.503853"
+       cy="40.138523"
+       r="8.427599" />
+  </g>
+</svg>

@@ -1,0 +1,124 @@
+header{
+
+    width: 100%;
+
+    height: 100px;
+
+    box-shadow: 0 0 5px black;
+
+    background-color: #120078;
+    
+    padding: 10px;
+
+    padding-left: 20px;
+    padding-right: 50px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    font-size: 2em;
+
+    color: white;
+
+    font-weight: bold;
+
+    font-family: var(--title);
+
+}
+
+header .logo{
+
+    background-image: url(../img/logo.svg);
+
+    background-size: 100% 100%;
+
+    width: 80px;
+
+    height: 80px;
+
+    background-position: center;
+
+    background-color: rgb(160, 14, 153);
+
+    border-radius: 4px;
+
+}
+
+header .car{
+
+    height: 100%;
+
+    width: 50px;
+
+    height: 50px;
+
+    background-color: white;
+
+    box-sizing: content-box;
+
+    padding: 5px;
+
+    border-radius: 10px;
+
+    color: black;
+
+}
+
+header .modal{
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    backdrop-filter: blur(10px);
+
+    position: fixed;
+
+    width: 100vw;
+
+    height: 100vh;
+
+    top: 0;
+
+    left: 0;
+
+    z-index: 100;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: black;
+
+}
+
+header .modal .close{
+
+    position: absolute;
+
+    width: 100%;
+
+    height: 100%;
+
+}
+
+header .modal .products{
+
+    width: 80%;
+
+    height: 80%;
+
+    background-color: white;
+
+    z-index: 200;
+
+}
+
+header .car-container{
+
+    padding: 0;
+
+}
