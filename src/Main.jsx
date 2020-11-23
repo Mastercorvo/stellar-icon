@@ -4,6 +4,8 @@ import Switch from '@material-ui/core/Switch';
 
 import Button from '@material-ui/core/Button';
 
+import { v4 as uuidv4 } from 'uuid';
+
 import Triangulo from './img/triangulo.svg';
 import Box from './img/caja.svg';
 import Equis from './img/equis.svg';
@@ -55,7 +57,7 @@ function Item({price, description, categories, name, rate, url, car, setCar}){
 
         setCar(value=>{
 
-            return [...value, data]
+            return [...value, {...data, index: uuidv4()}]
 
         })
 
