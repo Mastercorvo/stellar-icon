@@ -52,6 +52,12 @@ header .logo{
 
 }
 
+header .car-parent{
+
+    z-index: -100;
+
+}
+
 header .car{
 
     height: 100%;
@@ -70,6 +76,8 @@ header .car{
 
     color: black;
 
+    z-index: -100;
+
 }
 
 header .modal{
@@ -78,7 +86,7 @@ header .modal{
 
     backdrop-filter: blur(10px);
 
-    position: fixed;
+    position: absolute;
 
     width: 100%;
 
@@ -88,7 +96,7 @@ header .modal{
 
     left: 0;
 
-    z-index: 100;
+    z-index: 500;
 
     display: flex;
 
@@ -124,9 +132,13 @@ header .modal .close .cross{
 
     top: 20px;
 
-    background-color: black;
+    background-color: red;
 
-    border-radius: 10px;
+    border-radius: 4px;
+
+    box-shadow: 0 1px 2px black;
+
+    cursor: pointer;
 
 }
 
@@ -149,6 +161,8 @@ header .modal .products{
     padding: 20px;
 
     gap: 15px;
+
+    box-shadow: 0 0 5px black;
 
 }
 
@@ -272,130 +286,5 @@ header .modal .products .item-list .item .img{
 header .car-container{
 
     padding: 0;
-
-}
-
-header .pay{
-
-    display: none;
-
-    position: absolute;
-
-    top: 0;
-
-    left: 0;
-
-    width: 100%;
-
-    height: 100vh;
-
-    background-image: linear-gradient(45deg, rgb(3, 0, 194), white);
-
-    font-family: var(--normal);
-
-}
-
-header .pay > *{
-
-    width: 100%;
-
-    height: 100%;
-
-}
-
-header .pay .data{
-
-    display: flex;
-
-    flex-direction: column;
-
-    justify-content: center;
-
-    align-items: center;
-
-}
-
-header .pay .data h2{
-
-    margin: 0;
-
-    margin-bottom: 30px;
-
-    color: black;
-
-    background-color: white;
-
-    padding: 10px;
-
-    padding-left: 40px;
-    padding-right: 40px;
-
-    border-radius: 4px;
-
-    box-shadow: 0 0 10px -2px black;
-
-}
-
-header .pay .data .container{
-
-    display: flex;
-
-    flex-direction: column;
-
-    justify-content: center;
-
-    align-items: center;
-
-    font-size: 2rem;
-
-    background-color: white;
-
-    padding: 30px;
-
-    width: 500px;
-
-    border-radius: 10px;
-
-    box-shadow: 0 0 10px -2px black;
-
-}
-
-header .pay .data .container > *{
-
-    margin-bottom: 20px;
-
-}
-
-header .pay .data .input{
-
-    width: 100%;
-
-}
-
-header .pay .data .logo-card{
-
-    display: flex;
-
-}
-
-header .pay .data .visa{
-
-    width: 200px;
-
-    height: 200px;
-
-}
-
-header .pay .data button{
-
-    background-color: greenyellow;
-
-    padding: 1em;
-
-    padding-left: 2em;
-
-    padding-right: 2em;
-
-    font-size: 1.5rem;
 
 }

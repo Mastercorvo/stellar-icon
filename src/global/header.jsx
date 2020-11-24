@@ -3,46 +3,16 @@ import './header.css';
 
 import { useState } from 'react';
 
+import Pay from '../pay';
+import Check from '../check';
+
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
-import TextField from '@material-ui/core/TextField';
 import Badge from '@material-ui/core/Badge';
 import Button from '@material-ui/core/Button';
 import CloseIcon from '@material-ui/icons/Close';
 
 import { CSSTransition } from 'react-transition-group';
 import styled from 'styled-components';
-
-import Visa from '../img/visa.svg';
-import Mastercard from '../img/mastercard.svg';
-
-function Pay(){
-
-    return (<div className="pay">
-
-        <section className="data">
-            <h2>Paso 1: Rellene los datos</h2>
-            <div className="container">
-                <div className="logo-card">
-                    <div className="visa" style={{backgroundImage:'url('+ Visa + ')'}}></div>
-                    <div className="visa" style={{backgroundImage:'url('+ Mastercard + ')'}}></div>
-                </div>
-                <TextField className="input" label="Nombre Completo"/>
-                <TextField type="number" className="input" label="Número Tarjeta de Crédito"/>
-                <TextField className="input" label="Código de Tarjeta"/>
-                <TextField className="input" label="Fecha de Vencimiento" 
-                type="date" defaultValue="2017-05-24" InputLabelProps={{
-                    shrink: true,
-                }}/>
-
-                <Button>Siguiente</Button>
-
-            </div>
-
-        </section>
-
-    </div>)
-
-}
 
 const StyledItem = styled.div`
 
@@ -84,7 +54,7 @@ function Item({ name, url, price, deleteItem, index }){
 
 }
 
-function Modal({ car, setCar, showHandler, show }){
+function Modal({ car, setCar, showHandler, show, setShowPay, setShow }){
 
     function deleteItem(INDEX){
 
@@ -100,7 +70,16 @@ function Modal({ car, setCar, showHandler, show }){
 
     }
 
-    const listItems = car.map(({ name, url, price, index}, i)=>{
+    function buttonHandler(){
+
+        if(car.length === 0) return;
+
+        setShowPay(true);
+        setShow(false);
+
+    }
+
+    const listItems = car.map(({ name, url, price, index})=>{
 
         return <Item {...{deleteItem, name, url, price, index}} key={index} />;
 
@@ -120,7 +99,7 @@ function Modal({ car, setCar, showHandler, show }){
 
             <p className="total"> Total a Pagar: <span>{car.reduce((a, e)=> e.price + a, 0)}$</span> </p>
 
-            <Button>Comprar</Button>
+            <Button onClick={buttonHandler}>Comprar</Button>
 
         </div>
 
@@ -128,7 +107,7 @@ function Modal({ car, setCar, showHandler, show }){
 
 }
 
-function Header({ car, setCar}){
+function Header({car, setCar}){
 
     const [show, setShow] = useState(false);
 
@@ -138,13 +117,16 @@ function Header({ car, setCar}){
 
     }
 
+    const [showPay, setShowPay] = useState(false);
+    const [showCheck, setShowCheck] = useState(false);
+
     return (<header>
 
         <div className="logo"></div>
 
         <p>+ de 200 de Los Mas Artísticos Iconos del Mercado</p>
 
-        <Badge badgeContent={car.length} color="secondary">
+        <Badge badgeContent={car.length} color="secondary" className="car-parent">
             <Button className="car-container" onClick={showHandler}>
 
                 <ShoppingCartIcon className="car"/>
@@ -152,9 +134,11 @@ function Header({ car, setCar}){
             </Button>
         </Badge>
 
-        <Modal car={car} setCar={setCar} showHandler={showHandler} show={show}/>
+        <Modal car={car} setCar={setCar} showHandler={showHandler} setShow={setShow} show={show} setShowPay={setShowPay}/>
 
-        <Pay />
+        <Pay show={showPay} setShowPay={setShowPay} setShowCheck={setShowCheck} />
+
+        <Check car={car} setCar={setCar} show={showCheck} setShowCheck={setShowCheck}/>
 
     </header>);
 

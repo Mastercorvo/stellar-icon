@@ -23,7 +23,7 @@ const products = [
     {price: 2, description:'Caja sin contexto', categories: ['cuadrado', 'arte', 'colorido'], name: 'MasL', rate: '7', url: Box},
     {price: 5, description:'La equis marca el lugar', categories: ['equis', 'opaco'], name: 'K200', rate: '8',
     url: Equis},
-    {price: 12, description:'Una función', categories: ['único', 'arte', 'oscuro'], name: 'HHH', rate: '10',
+    {price: 12, description:'Una función', categories: ['circulo', 'arte', 'oscuro'], name: 'HHH', rate: '10',
     url: Fusion},
     {price: 3, description:'Movimiento uniforme', categories: ['movimiento', 'perfecto', 'oscuro'], name: 'AB', rate: '4', url: Movimiento},
     {price: 20, description:'Elevación forzosa', categories: ['único', 'arte', 'colorido'], name: 'JN17', rate: '10', url: Elevacion},
@@ -49,7 +49,7 @@ const colorCategories = {
 
 }
 
-function Item({price, description, categories, name, rate, url, car, setCar}){
+function Item({price, description, categories, name, rate, url, car, setCar, index}){
 
     const data = {price, description, categories, name, rate, url}
 
@@ -63,13 +63,13 @@ function Item({price, description, categories, name, rate, url, car, setCar}){
 
     }
 
-    return (<div className="item">
+    return (<div className="item" key={index}>
 
-        <div className="categories">{categories.map(e=>{
+        <div className="categories">{categories.map((e, i)=>{
             
             const STYLE = {backgroundColor: colorCategories[e], color: (e === 'oscuro')? 'white':''}
 
-            return <div style={STYLE} key={e}> <div className="dot"></div> {e}</div>
+            return <div style={STYLE} key={i}> <div className="dot"></div> {e}</div>
 
         })}</div>
 
