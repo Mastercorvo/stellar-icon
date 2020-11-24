@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200"
+   height="100"
+   viewBox="0 0 52.916665 26.458334"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="mastercard.svg">
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath973">
+      <circle
+         style="fill:#ff0009;fill-opacity:1;stroke:none;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+         id="circle975"
+         cx="39.24601"
+         cy="32.003181"
+         r="4.5478206" />
+    </clipPath>
+    <clipPath
+       id="clipPath973-1"
+       clipPathUnits="userSpaceOnUse">
+      <circle
+         r="4.5478206"
+         cy="32.003181"
+         cx="39.24601"
+         id="circle975-9"
+         style="fill:#ff0009;fill-opacity:1;stroke:none;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath973-1-0">
+      <circle
+         style="fill:#ff0009;fill-opacity:1;stroke:none;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+         id="circle975-9-7"
+         cx="39.24601"
+         cy="32.003181"
+         r="4.5478206" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.762454"
+     inkscape:cx="68.623674"
+     inkscape:cy="121.49769"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:snap-bbox="true"
+     inkscape:snap-page="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-global="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="967"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g846"
+       transform="translate(9.5367431e-7,-12.170834)">
+      <rect
+         y="14.704199"
+         x="5.0667295"
+         height="21.391602"
+         width="42.783203"
+         id="rect833"
+         style="fill:#00d6ff;fill-opacity:1;stroke:#00d6ff;stroke-width:2.64583;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers" />
+      <rect
+         y="18.434418"
+         x="3.7438154"
+         height="6.9655819"
+         width="45.429031"
+         id="rect835"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.91447;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers" />
+      <path
+         id="path837"
+         d="M 7.0879835,29.911305 H 24.26864"
+         style="fill:none;stroke:#000000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="4.5478206"
+         cy="31.838848"
+         cx="37.078659"
+         id="path913-9"
+         style="fill:#ff0009;fill-opacity:1;stroke:none;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers" />
+      <circle
+         r="4.5478206"
+         cy="31.838848"
+         cx="41.62648"
+         id="path913"
+         style="fill:#fff300;fill-opacity:1;stroke:none;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers" />
+      <circle
+         transform="translate(2.3804698,-0.16433334)"
+         clip-path="url(#clipPath973-1-0)"
+         style="fill:#ff0009;fill-opacity:0.5;stroke:none;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+         id="path913-0"
+         cx="34.698189"
+         cy="32.003181"
+         r="4.5478206" />
+    </g>
+  </g>
+</svg>
