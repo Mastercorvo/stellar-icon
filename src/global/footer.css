@@ -1,0 +1,22 @@
+
+footer{
+
+    height: 100px;
+
+    background-color: rgb(172, 172, 172);
+
+    display: flex;
+    
+    justify-content: center;
+
+    align-items: center;
+
+    font-weight: bold;
+
+    font-size: 1.8rem;
+
+    border-top: 1px black solid;
+
+    font-family: var(--title);
+
+}
