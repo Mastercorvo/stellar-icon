@@ -15,6 +15,10 @@ import Movimiento from './img/movimiento.svg';
 import Elevacion from './img/elevacion.svg';
 import Angulo from './img/angulo.svg';
 import Viajero from './img/viajero.svg';
+import Fobia from './img/phobia.svg';
+import Impacto from './img/impacto.svg';
+import Perdido from './img/perdido.svg';
+import Engranaje from './img/engranaje.svg'
 
 import './styles/main.css';
 
@@ -30,25 +34,13 @@ const PRODUCTS = [
     {price: 20, description:'Elevación forzosa', categories: ['único', 'arte', 'colorido'], name: 'JN17', rate: '10', url: Elevacion},
     {price: 14, description:'Doble angulo recto', categories: ['único', 'perfecto', 'claro'], name: 'ZD1FF', rate: '9', url: Angulo},
     {price: 6, description:'Circulo viajero', categories: ['circulo', 'perfecto', 'colorido'], name: 'CAS7B', rate: '8', url: Viajero},
+    {price: 7, description:'Fobia', categories: ['arte', 'único', 'colorido'], name: 'QUINNN', rate: '9', url: Fobia},
+    {price: 19, description:'¡Estoy perdido!', categories: ['arte', 'único', 'colorido'], name: 'ShaYY', rate: '9', url: Perdido},
+    {price: 1, description:'Circulo viajero', categories: ['circulo', 'arte', 'colorido'], name: 'Vissp', rate: '2', url: Impacto},
+    {price: 18, description:'Circulo viajero', categories: ['arte', 'perfecto', 'colorido'], name: 'NAVAS4', rate: '10', url: Engranaje},
 
 ]
 
-const colorCategories = {
-
-    triangulo: 'blue',
-    perfecto: 'gold',
-    opaco: 'grey',
-    oscuro: 'black',
-    cuadrado: 'red',
-    equis: 'deepskyblue',
-    único: 'silver',
-    movimiento: 'orange',
-    arte: 'purple',
-    colorido: 'pink',
-    claro: 'greenyellow',
-    circulo: '#fa163f'
-
-}
 
 function Item({price, description, categories, name, rate, url, car, setCar, index}){
 
@@ -66,23 +58,23 @@ function Item({price, description, categories, name, rate, url, car, setCar, ind
 
     return (<div className="item" key={index}>
 
-        <div className="categories">{[...categories].sort().map((e, i)=>{
-            
-            const STYLE = {backgroundColor: colorCategories[e], color: (e === 'oscuro')? 'white':''}
-
-            return <div style={STYLE} key={i}> <div className="dot"></div> {e}</div>
-
-        })}</div>
 
         <div className='img' style={{backgroundImage: 'url(' + url + ')'}}></div>
-
         <p className="name">{name}</p>
 
-        <p className="description">{description}</p>
+        {/* <div className="categories">{[...categories].sort().map((e, i)=>{
+            
+            return <p key={i} className={'category-'+i}>{e} </p>
+            
 
-        <div className="container"><p className="rate">⭐ {rate}/10</p> <p className="price">{price}$</p></div>
+        })}</div> */}
 
-        <Button onClick={add}>Añadir Producto</Button>
+
+        {/* <p className="description">📖 {description}</p> */}
+
+        <div className="container"><p className="rate"> {rate}/10</p> <p className="price">{price}$</p></div>
+
+        <Button onClick={add}>+ Añadir Producto</Button>
 
     </div>)
 
