@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/stellar-icon/static/css/main.0189e93f.chunk.css",
-    "main.js": "/stellar-icon/static/js/main.aad69d32.chunk.js",
-    "main.js.map": "/stellar-icon/static/js/main.aad69d32.chunk.js.map",
+    "main.css": "/stellar-icon/static/css/main.39bb3407.chunk.css",
+    "main.js": "/stellar-icon/static/js/main.a30b49c8.chunk.js",
+    "main.js.map": "/stellar-icon/static/js/main.a30b49c8.chunk.js.map",
     "runtime-main.js": "/stellar-icon/static/js/runtime-main.328e6557.js",
     "runtime-main.js.map": "/stellar-icon/static/js/runtime-main.328e6557.js.map",
     "static/js/2.1e45edb5.chunk.js": "/stellar-icon/static/js/2.1e45edb5.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.553dc433.chunk.js": "/stellar-icon/static/js/3.553dc433.chunk.js",
     "static/js/3.553dc433.chunk.js.map": "/stellar-icon/static/js/3.553dc433.chunk.js.map",
     "index.html": "/stellar-icon/index.html",
-    "static/css/main.0189e93f.chunk.css.map": "/stellar-icon/static/css/main.0189e93f.chunk.css.map",
+    "static/css/main.39bb3407.chunk.css.map": "/stellar-icon/static/css/main.39bb3407.chunk.css.map",
     "static/js/2.1e45edb5.chunk.js.LICENSE.txt": "/stellar-icon/static/js/2.1e45edb5.chunk.js.LICENSE.txt",
     "static/media/angulo.7f634b78.svg": "/stellar-icon/static/media/angulo.7f634b78.svg",
     "static/media/caja.80fdc771.svg": "/stellar-icon/static/media/caja.80fdc771.svg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.328e6557.js",
     "static/js/2.1e45edb5.chunk.js",
-    "static/css/main.0189e93f.chunk.css",
-    "static/js/main.aad69d32.chunk.js"
+    "static/css/main.39bb3407.chunk.css",
+    "static/js/main.a30b49c8.chunk.js"
   ]
 }
