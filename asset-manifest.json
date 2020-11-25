@@ -1,33 +1,37 @@
 {
   "files": {
-    "main.css": "/stellar-icon/static/css/main.39bb3407.chunk.css",
-    "main.js": "/stellar-icon/static/js/main.a30b49c8.chunk.js",
-    "main.js.map": "/stellar-icon/static/js/main.a30b49c8.chunk.js.map",
+    "main.css": "/stellar-icon/static/css/main.516999ca.chunk.css",
+    "main.js": "/stellar-icon/static/js/main.214facfc.chunk.js",
+    "main.js.map": "/stellar-icon/static/js/main.214facfc.chunk.js.map",
     "runtime-main.js": "/stellar-icon/static/js/runtime-main.328e6557.js",
     "runtime-main.js.map": "/stellar-icon/static/js/runtime-main.328e6557.js.map",
-    "static/js/2.1e45edb5.chunk.js": "/stellar-icon/static/js/2.1e45edb5.chunk.js",
-    "static/js/2.1e45edb5.chunk.js.map": "/stellar-icon/static/js/2.1e45edb5.chunk.js.map",
+    "static/js/2.540bff50.chunk.js": "/stellar-icon/static/js/2.540bff50.chunk.js",
+    "static/js/2.540bff50.chunk.js.map": "/stellar-icon/static/js/2.540bff50.chunk.js.map",
     "static/js/3.553dc433.chunk.js": "/stellar-icon/static/js/3.553dc433.chunk.js",
     "static/js/3.553dc433.chunk.js.map": "/stellar-icon/static/js/3.553dc433.chunk.js.map",
     "index.html": "/stellar-icon/index.html",
-    "static/css/main.39bb3407.chunk.css.map": "/stellar-icon/static/css/main.39bb3407.chunk.css.map",
-    "static/js/2.1e45edb5.chunk.js.LICENSE.txt": "/stellar-icon/static/js/2.1e45edb5.chunk.js.LICENSE.txt",
+    "static/css/main.516999ca.chunk.css.map": "/stellar-icon/static/css/main.516999ca.chunk.css.map",
+    "static/js/2.540bff50.chunk.js.LICENSE.txt": "/stellar-icon/static/js/2.540bff50.chunk.js.LICENSE.txt",
     "static/media/angulo.7f634b78.svg": "/stellar-icon/static/media/angulo.7f634b78.svg",
     "static/media/caja.80fdc771.svg": "/stellar-icon/static/media/caja.80fdc771.svg",
     "static/media/elevacion.cab89289.svg": "/stellar-icon/static/media/elevacion.cab89289.svg",
+    "static/media/engranaje.6faa9af7.svg": "/stellar-icon/static/media/engranaje.6faa9af7.svg",
     "static/media/equis.ea3384eb.svg": "/stellar-icon/static/media/equis.ea3384eb.svg",
     "static/media/fucion.14d4d313.svg": "/stellar-icon/static/media/fucion.14d4d313.svg",
+    "static/media/impacto.85802db9.svg": "/stellar-icon/static/media/impacto.85802db9.svg",
     "static/media/header.css": "/stellar-icon/static/media/logo.1c2e68a8.svg",
     "static/media/mastercard.ef681380.svg": "/stellar-icon/static/media/mastercard.ef681380.svg",
     "static/media/movimiento.8fd77adb.svg": "/stellar-icon/static/media/movimiento.8fd77adb.svg",
+    "static/media/perdido.9618c617.svg": "/stellar-icon/static/media/perdido.9618c617.svg",
+    "static/media/phobia.1fcf031f.svg": "/stellar-icon/static/media/phobia.1fcf031f.svg",
     "static/media/triangulo.79f9a0eb.svg": "/stellar-icon/static/media/triangulo.79f9a0eb.svg",
     "static/media/viajero.6c2898b1.svg": "/stellar-icon/static/media/viajero.6c2898b1.svg",
     "static/media/visa.3220d2f5.svg": "/stellar-icon/static/media/visa.3220d2f5.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.328e6557.js",
-    "static/js/2.1e45edb5.chunk.js",
-    "static/css/main.39bb3407.chunk.css",
-    "static/js/main.a30b49c8.chunk.js"
+    "static/js/2.540bff50.chunk.js",
+    "static/css/main.516999ca.chunk.css",
+    "static/js/main.214facfc.chunk.js"
   ]
 }
