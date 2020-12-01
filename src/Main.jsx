@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import Switch from '@material-ui/core/Switch';
 
-import Button from '@material-ui/core/Button';
+import Button from '@material-ui/core/ButtonBase';
 import TextField from '@material-ui/core/TextField';
 
 import { v4 as uuidv4 } from 'uuid';
@@ -18,12 +18,19 @@ import Viajero from './img/viajero.svg';
 import Fobia from './img/phobia.svg';
 import Impacto from './img/impacto.svg';
 import Perdido from './img/perdido.svg';
-import Engranaje from './img/engranaje.svg'
+import Engranaje from './img/engranaje.svg';
+
+import EsferaElevada from './img/esfera-elevada.svg';
+import Tubo from './img/tubo.svg';
+import Farol from './img/farol.svg';
 
 import './styles/main.css';
 
 const PRODUCTS = [
 
+    {price: 8, description:'Un triangulo perfecto', categories: ['triangulo', 'perfecto', 'opaco'], name: 'TER', rate: '10', url: EsferaElevada},
+    {price: 8, description:'Un triangulo perfecto', categories: ['triangulo', 'perfecto', 'opaco'], name: 'KAN7NT', rate: '10', url: Tubo},
+    {price: 8, description:'Un triangulo perfecto', categories: ['triangulo', 'perfecto', 'opaco'], name: 'HU59GGJ', rate: '10', url: Farol},
     {price: 8, description:'Un triangulo perfecto', categories: ['triangulo', 'perfecto', 'opaco'], name: 'N17', rate: '10', url: Triangulo},
     {price: 2, description:'Caja sin contexto', categories: ['cuadrado', 'arte', 'colorido'], name: 'MasL', rate: '7', url: Box},
     {price: 5, description:'La equis marca el lugar', categories: ['equis', 'opaco'], name: 'K200', rate: '8',
@@ -58,23 +65,11 @@ function Item({price, description, categories, name, rate, url, car, setCar, ind
 
     return (<div className="item" key={index}>
 
-
-        <div className='img' style={{backgroundImage: 'url(' + url + ')'}}></div>
         <p className="name">{name}</p>
-
-        {/* <div className="categories">{[...categories].sort().map((e, i)=>{
-            
-            return <p key={i} className={'category-'+i}>{e} </p>
-            
-
-        })}</div> */}
-
-
-        {/* <p className="description">📖 {description}</p> */}
-
+        <div className='img' style={{backgroundImage: 'url(' + url + ')'}}></div>
         <div className="container"><p className="rate"> {rate}/10</p> <p className="price">{price}$</p></div>
-
-        <Button onClick={add}>+ Añadir Producto</Button>
+        
+        <Button className="button" onClick={add}>+</Button>
 
     </div>)
 

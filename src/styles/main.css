@@ -8,7 +8,7 @@
 
 .main .search{
 
-    width: 200px;
+    width: 250px;
 
     height: auto;
 
@@ -20,13 +20,21 @@
 
     padding-top: 40px;
 
-    border-right: 1px rgb(202, 202, 202) solid;
+    border-right: 1px rgb(179, 179, 179) solid;
+
+    color: #2B2C28;
 
 }
 
 .main .search h5{
 
     margin-top: 15px;
+
+    color: #8B8BAE;
+
+    font-size: 1em;
+
+    font-weight: normal;
 
 }
 
@@ -74,7 +82,7 @@
 
     grid-template-columns: repeat(4, 1fr);
 
-    grid-auto-rows: min-content;
+    grid-auto-rows: 1fr;
 
     justify-items: center;
 
@@ -86,32 +94,46 @@
 
     width: 100%;
 
-    height: min-content;
+    height: 100%;
 
     padding: 5px;
 
     padding-top: 20px;
     padding-bottom: 20px;
 
-    display: grid;
+    display: flex;
 
-    grid-template-rows: auto  min-content min-content 35px;
+    flex-direction: column;
 
-    gap: 12px;
+    justify-content: space-around;
 
     border-radius: 4px;
 
-    justify-items: center;
+    align-items: center;
+
+    --time: 200ms;
+
+    transition: all var(--time);
+
+    background-color: white;
 
     position: relative;
 
-    position: relative;
+}
 
-    bottom: 0;
+.main .shop .item:hover .name{
 
-    transition: all 200ms;
+    opacity: 1;
 
-    color: rgb(180, 180, 180);
+}
+
+.main .shop .item:hover .container{
+
+    /* top: 100%; */
+
+    opacity: 1;
+
+    transition: all var(--time);
 
 }
 
@@ -119,18 +141,20 @@
 
     opacity: 1;
 
-    transition: opacity 200ms;
+    transition: opacity var(--time);
 
 }
 .main .shop .item:hover{
 
-    bottom: 5px;
+    bottom: 8px;
 
-    transition: all 200ms;
+    box-shadow: 0 0 2px black;
 
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+    transition: var(--time);
 
-    color: rgb(78, 78, 78);
+    transform: scale(1.05);
+
+    z-index: 500;
 
 }
 
@@ -150,33 +174,49 @@
 
     width: 150px;
 
-    /* border-bottom: 1px rgb(129, 129, 129) solid; */
-
 }
 
 .main .shop .item .name{
 
     font-weight: bold;
 
+    opacity: 0;
+
+    color: #131515
+
 }
 
-.main .shop .item button{
-
-    border: none;
+.main .shop .item .button{
 
     border-radius: 4px;
 
     font-weight: bold;
-    
-    width: 100%;
-    
+
+    height: 40px;
+
+    width: 40px;
+
     color: inherit;
 
-    background-color: rgb(239, 255, 239);
+    background-color: rgb(0, 207, 0);
+
+    color: white;
+
+    right: 5px;
+
+    top: 5px;
+
+    position: absolute;
+
+    font-size: 2em;
 
     opacity: 0;
 
-    transition: opacity 200ms;
+    transition: opacity var(--time);
+
+    box-shadow: 0 1px 2px black;
+
+    padding: 0;
 
 }
 
@@ -186,7 +226,19 @@
 
     width: 100%;
 
-    justify-content: space-evenly;
+    justify-content: space-between;
+
+    align-items: center;
+
+    border-radius: 20px;
+
+    padding-right: 3px;
+
+    padding-left: 10px;
+
+    padding-right: 10px;
+
+    opacity: 0;
 
 }
 
